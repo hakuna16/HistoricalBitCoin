@@ -1,0 +1,74 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 150
+      }
+    ],
+    "prefer-promise-reject-errors": [
+      "off"
+    ],
+    "react/jsx-filename-extension": [
+      "off"
+    ],
+    "import/prefer-default-export": [
+      "off"
+    ],
+    "react/prop-types": [
+      "warn"
+    ],
+    "no-return-assign": [
+      "off"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/jsx-props-no-spreading": [
+      "off"
+    ],
+    "react/forbid-prop-types": [
+      "off"
+    ],
+    "no-underscore-dangle": [
+      "off"
+    ],
+    "no-param-reassign": [
+      "off"
+    ],
+    "no-nested-ternary": [
+      "off"
+    ],
+    "no-restricted-syntax": [
+      "off"
+    ],
+    "no-unused-expressions": [
+      "off"
+    ]
+  }
+}
